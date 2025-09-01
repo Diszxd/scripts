@@ -28,6 +28,7 @@ CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
     "https://civitai.com/api/download/models/102709?type=Model&format=SafeTensor&size=full&fp=fp32"
     "https://civitai.com/api/download/models/30199?type=Model&format=SafeTensor&size=full&fp=fp16"
+    "https://civitai.com/api/download/models/2086227?type=Model&format=SafeTensor&size=full&fp=fp8"
 )
 
 UNET_MODELS=(
@@ -47,6 +48,15 @@ LORA_MODELS=(
     "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors"
     "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors"
     "https://civitai.com/api/download/models/2149593?type=Model&format=SafeTensor"
+    "https://huggingface.co/WazarBiatch/i2v_Contextual_NSFW_Multiscene_Trigger_Multiscene_v1/resolve/main/W_Contextual_NSFW_Multiscene_Trigger_i2v_14b_v1.safetensors?download=true"
+)
+
+CLIPS=(
+    "https://civitai.com/api/download/models/2044319?type=Model&format=SafeTensor&size=pruned&fp=fp8"
+)
+
+VISION_CLIPS=(
+    "https://civitai.com/api/download/models/2053025?type=Model&format=SafeTensor&size=pruned&fp=fp8"
 )
 
 VAE_MODELS=(
@@ -99,6 +109,13 @@ function provisioning_start() {
     provisioning_get_files \
         "${COMFYUI_DIR}/models/diffusion_models" \
         "${DIFFUSION_MODELS[@]}"
+        "${TEXT_ENCODERS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/clip" \
+        "${CLIPS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/clip_vision" \
+        "${VISION_CLIPS[@]}"
     provisioning_print_end
 }
 
