@@ -25,10 +25,10 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
-    "https://civitai.com/api/download/models/102709?type=Model&format=SafeTensor&size=full&fp=fp32"
-    "https://civitai.com/api/download/models/30199?type=Model&format=SafeTensor&size=full&fp=fp16"
-    "https://civitai.com/api/download/models/2086227?type=Model&format=SafeTensor&size=full&fp=fp8"
+    "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/102709?type=Model&format=SafeTensor&size=full&fp=fp32&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/30199?type=Model&format=SafeTensor&size=full&fp=fp16&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/2086227?type=Model&format=SafeTensor&size=full&fp=fp8&token=${MYTOKEN}"
 )
 
 UNET_MODELS=(
@@ -36,27 +36,27 @@ UNET_MODELS=(
 
 LORA_MODELS=(
     "https://huggingface.co/jermaloves69/WAN_Passionate_Kissing_v1/resolve/main/dgyHairPull_WAN_run2-000350_converted.safetensors?download=true"
-    "https://civitai.com/api/download/models/1874238?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/199761?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/1619808?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/1964938?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/1602715?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/2156421?type=Model&format=Diffusers"
-    "https://civitai.com/api/download/models/2077233?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/2081829?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/2090458?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1874238?type=Model&format=SafeTensor&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/199761?type=Model&format=SafeTensor&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/1619808?type=Model&format=SafeTensor&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/1964938?type=Model&format=SafeTensor&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/1602715?type=Model&format=SafeTensor&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/2156421?type=Model&format=Diffusers&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/2077233?type=Model&format=SafeTensor&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/2081829?type=Model&format=SafeTensor&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/2090458?type=Model&format=SafeTensor&token=${MYTOKEN}"
     "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors"
     "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors"
-    "https://civitai.com/api/download/models/2149593?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/2149593?type=Model&format=SafeTensor&token=${MYTOKEN}"
     "https://huggingface.co/WazarBiatch/i2v_Contextual_NSFW_Multiscene_Trigger_Multiscene_v1/resolve/main/W_Contextual_NSFW_Multiscene_Trigger_i2v_14b_v1.safetensors?download=true"
 )
 
 CLIPS=(
-    "https://civitai.com/api/download/models/2044319?type=Model&format=SafeTensor&size=pruned&fp=fp8"
+    "https://civitai.com/api/download/models/2044319?type=Model&format=SafeTensor&size=pruned&fp=fp8&token=${MYTOKEN}"
 )
 
 VISION_CLIPS=(
-    "https://civitai.com/api/download/models/2053025?type=Model&format=SafeTensor&size=pruned&fp=fp8"
+    "https://civitai.com/api/download/models/2053025?type=Model&format=SafeTensor&size=pruned&fp=fp8&token=${MYTOKEN}"
 )
 
 VAE_MODELS=(
