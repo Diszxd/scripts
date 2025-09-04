@@ -32,6 +32,8 @@ CHECKPOINT_MODELS=(
 )
 
 UNET_MODELS=(
+    "https://huggingface.co/bullerwins/Wan2.2-I2V-A14B-GGUF/resolve/main/wan2.2_i2v_low_noise_14B_Q8_0.gguf?download=true"
+    "https://huggingface.co/bullerwins/Wan2.2-I2V-A14B-GGUF/resolve/main/wan2.2_i2v_high_noise_14B_Q8_0.gguf?download=true"
 )
 
 LORA_MODELS=(
@@ -57,6 +59,7 @@ CLIPS=(
 
 VISION_CLIPS=(
     "https://civitai.com/api/download/models/2053025?type=Model&format=SafeTensor&size=pruned&fp=fp8&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/2039365?type=Model&format=SafeTensor&size=full&fp=fp16&token=${MYTOKEN}"
 )
 
 VAE_MODELS=(
@@ -71,6 +74,7 @@ CONTROLNET_MODELS=(
 
 TEXT_ENCODERS=(
     "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+    "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors?download=true"
 )
 
 DIFFUSION_MODELS=(
