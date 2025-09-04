@@ -16,12 +16,12 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    #"https://github.com/ltdrdata/ComfyUI-Manager"
+    "https://github.com/stduhpf/ComfyUI--WanMoeKSampler"
     #"https://github.com/cubiq/ComfyUI_essentials"
 )
 
 WORKFLOWS=(
-
+    "https://raw.githubusercontent.com/stduhpf/ComfyUI-WanMoeKSampler/refs/heads/master/workflows/Wan%20MoE%20I2V%20custom.json"
 )
 
 CHECKPOINT_MODELS=(
