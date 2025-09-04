@@ -16,7 +16,7 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    "https://github.com/stduhpf/ComfyUI--WanMoeKSampler"
+    #"https://github.com/stduhpf/ComfyUI--WanMoeKSampler"
     #"https://github.com/cubiq/ComfyUI_essentials"
 )
 
