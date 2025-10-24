@@ -74,6 +74,9 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/2300902?type=Model&format=SafeTensor&token=${MYTOKEN}"
     "https://civitai.com/api/download/models/2300900?type=Model&format=SafeTensor&token=${MYTOKEN}"
     "https://civitai.com/api/download/models/2151240?type=Model&format=SafeTensor&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/1829048?type=Model&format=SafeTensor&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/2235606?type=Model&format=SafeTensor&token=${MYTOKEN}"
+    "https://civitai.com/api/download/models/2235627?type=Model&format=SafeTensor&token=${MYTOKEN}"
     "https://huggingface.co/WazarBiatch/i2v_Contextual_NSFW_Multiscene_Trigger_Multiscene_v1/resolve/main/W_Contextual_NSFW_Multiscene_Trigger_i2v_14b_v1.safetensors?download=true"
 )
 
